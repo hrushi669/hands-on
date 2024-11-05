@@ -7,7 +7,7 @@ from pyatlan.model.enums import AtlanConnectorType
 from pyatlan.model.fields.atlan_fields import AtlanField
 from pyatlan.model.fluent_search import FluentSearch
 from pyatlan.model.search import IndexSearchRequest
-from cbe_common import time_it
+from ref.cbe_common import time_it
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

@@ -6,7 +6,7 @@ from pyatlan.model.assets import Asset, Table
 from pyatlan.model.enums import AtlanConnectorType, LineageDirection
 from pyatlan.model.fluent_search import FluentSearch
 from pyatlan.model.lineage import FluentLineage
-from cbe_common import time_it
+from ref.cbe_common import time_it
 
 logging.basicConfig(level=logging.INFO, filename="lineage.logs", filemode='a', format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)

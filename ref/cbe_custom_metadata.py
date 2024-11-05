@@ -9,7 +9,7 @@ from pyatlan.model.core import Announcement
 from pyatlan.model.enums import AtlanConnectorType, AnnouncementType
 from pyatlan.model.fluent_search import FluentSearch
 
-from cbe_common import time_it
+from ref.cbe_common import time_it
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
